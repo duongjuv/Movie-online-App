@@ -1,0 +1,67 @@
+<!-- dialog_feedback.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <!-- ImageView bên trái -->
+
+    <!-- LinearLayout để chứa TextView và EditTexts -->
+
+    <ImageView
+        android:id="@+id/imgAvatarComment"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginEnd="16dp"
+        android:src="@drawable/img_default"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!-- TextView hiển thị email -->
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: user@example.com"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- EditText để đánh giá số sao -->
+        <EditText
+            android:id="@+id/edtRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:hint="Đánh giá số sao(1*-5*)"
+            android:inputType="numberDecimal"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="VisualLintTextFieldSize" />
+
+        <!-- EditText để nhập bình luận -->
+        <EditText
+            android:id="@+id/edtComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập bình luận"
+            android:minHeight="48dp"
+            android:textColorHint="#546E7A"
+            tools:ignore="VisualLintTextFieldSize" />
+    </LinearLayout>
+
+    <!-- Button thực hiện bình luận -->
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gửi"
+        android:layout_gravity="center_vertical"
+        android:padding="8dp" />
+</LinearLayout>

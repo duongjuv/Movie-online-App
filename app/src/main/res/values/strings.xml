@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Project_Movie_App_Online</string>
+    <string name="txt_slogan_favourite">Ứng dụng giải trí yêu thích</string>
+    <string name="title_intro">Bạn có thể xem mọi lúc, mọi nơi cùng với các chương trình yêu thích, tìm kiếm các chủ đề đặc biệt thích thú và trải nghiệm chất lượng dịch vụ đảm bảo</string>
+    <string name="txt_intro_experience">Trải nghiệm ngay</string>
+    <string name="txt_start_intro">Bắt đầu nào</string>
+    <string name="txt_login">Đăng nhập</string>
+    <string name="txt_username">UserName</string>
+    <string name="txt_password">Password</string>
+    <string name="txt_forgot_password">Quên mật khẩu</string>
+    <string name="txt_noAccount">Chưa có tài khoản.</string>
+    <string name="txt_errorLogin">Tài khoản và mật khẩu chưa chính xác!</string>
+    <string name="txt_errorLoginIsEmpty">Vui lòng nhập đầy đủ tài khoản và mật khẩu!</string>
+    <string name="txt_searchNow">Tìm kiếm tại đây...</string>
+    <string name="txt_bestMovie">Tổng hợp phim</string>
+    <string name="txt_category">Danh mục</string>
+    <string name="txt_upcomingMovie">Phim sắp ra mắt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="txt_explorer">Điều hướng</string>
+    <string name="txt_favourite">Yêu thích</string>
+    <string name="txt_cart">Giỏ hàng</string>
+    <string name="txt_private">Tài khoản</string>
+    <string name="txt_describe">Mô tả phim ngắn</string>
+    <string name="txt_title">Tên phim</string>
+    <string name="txt_enter_your_email">Nhập email</string>
+    <string name="txtRegister">Đăng ký</string>
+    <string name="txt_enter_your_password">Nhập mật khẩu</string>
+    <string name="phone_number">Số điện thoại</string>
+    <string name="txt_full_name">Họ tên:</string>
+    <string name="txt_enter_your_phone_number">Nhập số điện thoại</string>
+    <string name="password">Password</string>
+    <string name="txt_nhapHoten">Nhập họ tên</string>
+    <string name="txt_yearMovie">Năm sản xuất</string>
+    <string name="txt_back_navigation">Back Navigation</string>
+    <string name="txt_Zero">0</string>
+    <string name="txt_full_name_movie">Full Name Movie</string>
+    <string name="txt_summary">Nội dung phim</string>
+    <string name="txt_actor">Diễn Viên:</string>
+    <string name="txt_BinhLuan">Bình luận</string>
+    <string name="txt_start_movie">Xem phim</string>
+    <string name="desc_full_screen">Mở rông màn hình</string>
+    <string name="txt_home_title">Trang chủ</string>
+    <string name="txt_search_title">Tìm kiếm</string>
+    <string name="txt_private_title">Cá nhân</string>
+    <string name="txt_favourite_title">Yêu thích</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="user_icon_description">Mô tả ảnh user</string>
+    <string name="txt_errorUserAndPassIncorrect">Sai tài khoản hoặc mật khẩu!</string>
+    <string name="txt_LoginSuccess">Login successfully</string>
+    <string name="txt_LoginFail">Lỗi khi đăng nhập!</string>
+    <string name="user_image">Ảnh user bình luận</string>
+    <string name="txt_commentUser">Bình luận của người dùng ở đây...</string>
+    <string name="txt_4_5">4.5</string>
+    <string name="txt_commentMovie">Bình luận</string>
+    <string name="user_name">User Name</string>
+    <string name="this_is_a_sample_comment">This is a sample comment</string>
+    <string name="txt_listFavouriteMovie">Danh sách phim yêu thích</string>
+    <string name="txt_NoidungPhimODay">Nội dung phim ở đây</string>
+    <string name="txt_numberStartttt">4.5</string>
+    <string name="ten_phim">Tên phim</string>
+    <string name="txt_category_title">Thể loại</string>
+    <string name="back_button">Trở về trang đăng nhập</string>
+    <string-array name="video_speeds">
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+    </string-array>
+
+    <string name="select_quality">Chọn chất lượng</string>
+    <string name="track_selection_title">Chọn tracks</string>
+
+    <string name="exo_track_selection_title_audio" tools:ignore="PrivateResource">audio</string>
+    <string name="exo_track_selection_title_text">text</string>
+    <string name="exo_track_selection_title_video">video</string>
+    <string name="exo_track_selection_title_image">image</string>
+    <string name="txt_vipMovie">Phim hot</string>
+    <string name="txt_create_watch_history_successfully">Create watch history successfully</string>
+    <string name="txt_update_watch_history_successfully">Update watch history successfully</string>
+    <string name="txt_khoi_tao_lich_su_thanh_cong">Khoi tao lich su thanh cong!</string>
+    <string name="txt_failCreateHistory">Khởi tạo lịch sử</string>
+    <string name="txt_cannotCreateHistory">Lỗi khi khởi tạo</string>
+    <string name="txt_time">Thời gian</string>
+
+    <string-array name="array_categories_fake">
+        <item>Chính kịch</item>
+        <item>Hành động</item>
+        <item>Võ thuật</item>
+        <item>Tâm lý</item>
+        <item>Tình cảm</item>
+    </string-array>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="txt_fullName">Họ và tên</string>
+    <string name="txt_email">Email</string>
+    <string name="txt_phoneNumber">Số điện thoại</string>
+    <string name="txt_mk">Mật khẩu:</string>
+    <string name="txt_changeMK">Thay đổi mk</string>
+    <string name="txt_updateVip">Nâng cấp VIP</string>
+    <string name="txt_tkOfften">Tài khoản thường</string>
+    <string name="txt_tkVip">Tài khoản Vip</string>
+    <string name="txt_banking">Số tài khoản: 1016999999\nNgân hàng: VCB Bank</string>
+    <string name="txt_contentBanking">Nhập nội dung chuyển khoản</string>
+    <string name="qr_code">QR Code</string>
+    <string name="txt_moneyDeposit">Nhập số tiền nạp</string>
+</resources>

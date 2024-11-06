@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.detail.activity.StartMovieActivity">
+
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/PlayerView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/black"
+        app:buffered_color="#E6E6FA"
+        app:controller_layout_id="@layout/custom_controls"
+        app:show_buffering="when_playing"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:played_color="#7F00FF"
+        app:resize_mode="fit"
+        app:scrubber_color="#7F00FF"
+        app:unplayed_color="#B3B3B3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
